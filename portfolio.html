@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио — семейный фотограф в Краснодаре — Анастасия Гукова</title>
+  <meta name="description"
+    content="Портфолио семейного фотографа в Краснодаре: семейные съёмки, фотосессии в ожидании, женский портрет." />
+  <link rel="canonical" href="https://agukova.ru/portfolio.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Портфолио — Анастасия Гукова" />
+  <meta property="og:description"
+    content="Портфолио семейного фотографа в Краснодаре: семейные съёмки, фотосессии в ожидании, женский портрет." />
+  <meta property="og:url" content="https://agukova.ru/portfolio.html" />
+  <meta property="og:image" content="https://agukova.ru/images/hero.jpg" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="portfolio-page">
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span>Анастасия Гукова</span>
+        <small>family photographer</small>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="index.html#about">Обо мне</a>
+        <a href="index.html#services">Съёмки</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="index.html#journal">Блог</a>
+        <a href="index.html#contact">Контакты</a>
+        <a class="nav-cta" href="index.html#contact">Записаться</a>
+      </nav>
+    </header>
+
+    <section class="pf-section section">
+      <div class="portfolio-head">
+        <div class="section-label">Избранные истории</div>
+        <h1>Портфолио<span></span></h1>
+        <p>Не идеальные позы, а моменты, которые хочется сохранить.
+
+        </p>
+      </div>
+
+      <div class="pf-filter" role="group" aria-label="Фильтр по темам">
+        <button type="button" class="is-active" data-filter="all">Все</button>
+        <button type="button" data-filter="family">Семейные</button>
+        <button type="button" data-filter="maternity">В ожидании</button>
+        <button type="button" data-filter="portrait">Женский портрет</button>
+      </div>
+
+      <!--
+          КАК ДОБАВИТЬ ФОТО: скопируйте один блок <figure class="pf-item"> ... </figure>,
+          вставьте в начало списка и поменяйте имя файла, описание (alt) и тему
+          в data-category: family, maternity или portrait.
+          Фото положите в папку images. Желательно сжать его до ширины 1600–2000 px.
+        -->
+      <div class="pf-grid">
+        <figure class="pf-item" data-category="family">
+          <a href="images/family-walk.jpg">
+            <img src="images/family-walk.jpg" alt="Родители целуют малышку с плюшевой совой" width="1920" height="2560"
+              loading="lazy" />
+          </a>
+          <!-- <figcaption><span>Семейные</span><b>Вместе — самое важное</b></figcaption> -->
+        </figure>
+        <figure class="pf-item" data-category="maternity">
+          <a href="images/maternity.jpg">
+            <img src="images/maternity.jpg" alt="Пара ждёт ребёнка, съёмка дома на кухне" width="1365" height="2048"
+              loading="lazy" />
+          </a>
+          <!-- <figcaption><span>В ожидании</span></figcaption> -->
+        </figure>
+        <figure class="pf-item" data-category="portrait">
+          <a href="images/portrait-close-2.jpg">
+            <img src="images/portrait-close-2.jpg" alt="Девушка с кудрями в белом платке в саду" width="1707"
+              height="2560" loading="lazy" />
+          </a>
+          <!-- <figcaption><span>Женский портрет</span><b>Быть собой</b></figcaption> -->
+        </figure>
+        <figure class="pf-item" data-category="family">
+          <a href="images/family-walk-2.jpg">
+            <img src="images/family-walk-2.jpg" alt="Мальчик играет с мыльными пузырями в саду" width="1707"
+              height="2276" loading="lazy" />
+          </a>
+          <!-- <figcaption><span>Семейные</span></figcaption> -->
+        </figure>
+        <figure class="pf-item" data-category="maternity">
+          <a href="images/maternity-field.jpg">
+            <img src="images/maternity-field.jpg" alt="Чёрно-белый кадр: пара ждёт малыша у окна" width="1365"
+              height="1820" loading="lazy" />
+          </a>
+          <!-- <figcaption><span>В ожидании</span><b>Тихое счастье</b></figcaption> -->
+        </figure>
+        <figure class="pf-item" data-category="portrait">
+          <a href="images/portrait.jpg">
+            <img src="images/portrait.jpg" alt="Портрет девушки в чёрном пиджаке" width="1440" height="1799"
+              loading="lazy" />
+          </a>
+          <!-- <figcaption><span>Женский портрет</span></figcaption> -->
+        </figure>
+        <figure class="pf-item" data-category="family">
+          <a href="images/family-2.jpg">
+            <img src="images/family-2.jpg" alt="Два брата прыгают на диване, чёрно-белый кадр" width="1365"
+              height="2048" loading="lazy" />
+          </a>
+          <!-- <figcaption><span>Семейные</span><b>Дом там, где вы</b></figcaption> -->
+        </figure>
+        <figure class="pf-item" data-category="family">
+          <a href="images/hero.jpg">
+            <img src="images/hero.jpg" alt="Двое мальчишек бегут по двору в солнечный день" width="2048" height="1365"
+              loading="lazy" />
+          </a>
+          <!-- <figcaption><span>Семейные</span></figcaption> -->
+        </figure>
+        <figure class="pf-item" data-category="portrait">
+          <a href="images/portrait-close.jpg">
+            <img src="images/portrait-close.jpg" alt="Чёрно-белый портрет девушки в свитере" width="1717" height="2576"
+              loading="lazy" />
+          </a>
+          <!-- <figcaption><span>Женский портрет</span></figcaption> -->
+        </figure>
+        <figure class="pf-item" data-category="family">
+          <a href="images/family.jpg">
+            <img src="images/family.jpg" alt="Девочка смеётся в объятиях семьи и собаки" width="1365" height="1820"
+              loading="lazy" />
+          </a>
+          <!-- <figcaption><span>Семейные</span></figcaption> -->
+        </figure>
+      </div>
+    </section>
+
+    <section class="article-cta section">
+      <p>Хотите такую съёмку?</p>
+      <a class="outline-link" href="index.html#contact">Обсудить вашу съёмку <span>→</span></a>
+    </section>
+
+    <footer>
+      <a class="brand footer-brand" href="index.html">
+        <span>Анастасия Гукова</span>
+        <small>family photographer</small>
+      </a>
+      <p>Семейный фотограф · Краснодар</p>
+      <a href="#top">Наверх ↑</a>
+      <small>© 2026 · Все права защищены</small>
+    </footer>
+  </main>
+
+  <div class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Просмотр фото">
+    <button type="button" class="lightbox-close" aria-label="Закрыть">×</button>
+    <button type="button" class="lightbox-nav prev" aria-label="Предыдущее фото">←</button>
+    <figure>
+      <img alt="" />
+      <figcaption></figcaption>
+    </figure>
+    <button type="button" class="lightbox-nav next" aria-label="Следующее фото">→</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
